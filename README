@@ -1,0 +1,4 @@
+Simple sketch to talk to a DHT11 humidity and temperature sensor
+and output the values on serial
+(Also with LED for status output)
+
