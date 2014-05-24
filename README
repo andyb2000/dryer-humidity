@@ -2,3 +2,16 @@ Simple sketch to talk to a DHT11 humidity and temperature sensor
 and output the values on serial
 (Also with LED for status output)
 
+Connect the DHT11 sensor like this:
+
+(Looking at package with holes on top, connectors on left)
+1st connection +ve (3 or 5v)
+2nd connection +dte (Data)
+3rd blank
+4th connection -ve
+
+Connect the data to analogue input 0
+
+LED is a common anode RGB, so common (longest leg)
+goes to +ve
+Each other leg via a resistor to digital pins 5,6,7
